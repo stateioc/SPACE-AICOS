@@ -95,7 +95,7 @@ SPACE AICOS 3.0 采用分层解耦的架构设计，分为AI应用编排层、�
 
 - 网络与协议层：包含协议栈、卡间互联、RDMA 高性能网络技术，为大模型分布式训练、高并发推理提供低延迟、高带宽的网络保障，最大化算力利用率。
 
-### AICOS 3.0技术体系仓库
+### SPACE AICOS 3.0技术体系仓库
 
 SPACE AICOS3.0 采用微服务架构，由多个专业化代码仓库协同构建，各仓库职责清晰、联动支撑：
 
@@ -107,8 +107,10 @@ SPACE AICOS3.0 采用微服务架构，由多个专业化代码仓库协同构�
 
 - [SPACE-AICOS-BCS](https://github.com/stateioc/aicos-bcs/tree/space-aicos)：算力调度层容器调度组件，提供复杂AI应用容器化部署、编排及服务治理能力。
   
-- [SPACE-AICOS-CPIDGATEWAY](https://github.com/stateioc/space-aicos-cpidgateway):
-## AICOS 社区
+- [SPACE-AICOS-CPIDGATEWAY_PACKAGE](https://github.com/stateioc/space-aicos-cpidgateway_package):服务器级太空算力标识网关，部署于星载算力服务器，为 CPU、GPU、NPU 等异构算力资源分配全局唯一标识，完成算力属性注册与实时状态采集。
+  
+- [AICOS-CPIDGATEWAY_PACKAGE](https://github.com/stateioc/aicos-cpidgateway_package):企业侧算力标识网关，部署于企业侧，统一汇聚、纳管云管/算管平台的算力资源，提供域内算力标识采集、编码、校验、解析等能力。
+## SPACE AICOS 社区
 
 中国信通院牵头搭建SPACE AICOS开源社区，旨在汇聚行业各方力量，发挥协同优势与成员单位创新能力，通过关键技术攻关、行业标准制定、生态体系建设等工作，推动AI云操作系统技术创新与产业升级，助力各行业在人工智能驱动下实现数字化转型与高质量发展。
 
