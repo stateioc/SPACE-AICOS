@@ -13,7 +13,7 @@ SPACE-AICOS-CMDB架构整体为分层的微服务设计，可以分为以下四�
 - 服务层：提供资源管理和业务场景管理服务；
 - 资源层：提供系统所需的资源。
 
-![bk-cmdb.png](./docs/resource/img/art_en.png) 
+![space-aicos-cmdb.png](./art_en.png) 
 
 ## 功能特性
 ### 一、web层
@@ -68,7 +68,7 @@ SPACE AICOS 联合中国信通院从 AI 云操作系统总体架构、架构各�
 
 ## 贡献指南
 欢迎所有开发者参与SPACE AICOS开源社区建设，提交功能特性、修复问题、完善文档。
-详细贡献规范请查看 [CONTRIBUTING.md](docs/CONTRIBUTING.md)
+详细贡献规范请查看 [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ### Git Commit 规范
 |标记|说明|
