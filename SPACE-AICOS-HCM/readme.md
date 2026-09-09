@@ -7,7 +7,7 @@ SPACE-AICOS-HCM为业务提供对资源管理层的资源统一纳管与治理�
 
 ## 架构设计
 
-![图片1](./docs/resource/img/art.png)
+![图片1](./art.png)
 
 SPACE-AICOS-HCM架构整体为分层的微服务设计，可以分为以下四层：
 
