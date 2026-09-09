@@ -23,28 +23,28 @@ SPACE-AICOS-BCS 定位于打造底层资源和业务实际应用场景之间的�
 
 ### 高级特性
 - [多卡适配]()
-- [Pod原地升级InplaceUpdate](./docs/features/bcs-gamestatefulset-operator/inPlaceUpdate.md)
-- [容器镜像热更新HotPatchUpdate](./docs/features/bcs-gamestatefulset-operator/hotPatchUpdate.md)
-- [基于Hook的应用交互式发布](./docs/features/bcs-hoo-operator/README.md)
-- [自动化分步骤灰度发布](./docs/features/bcs-gamedeployment-operator/features/canary/auto-canary-update.md)
-- [PreDeleteHook & PreInplaceHook优雅地删除和更新Pod](./docs/features/bcs-gamedeployment-operator/features/preDeleteHook/pre-delete-hook.md)
+- [Pod原地升级InplaceUpdate](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/features/bcs-gamestatefulset-operator/inPlaceUpdate.md)
+- [容器镜像热更新HotPatchUpdate](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/features/bcs-gamestatefulset-operator/hotPatchUpdate.md)
+- [基于Hook的应用交互式发布](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/features/bcs-hoo-operator/README.md)
+- [自动化分步骤灰度发布](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/features/bcs-gamedeployment-operator/features/canary/auto-canary-update.md)
+- [PreDeleteHook & PreInplaceHook优雅地删除和更新Pod](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/features/bcs-gamedeployment-operator/features/preDeleteHook/pre-delete-hook.md)
 - [镜像预热]()
 - [容器web-console](https://bk.tencent.com/docs/document/6.0/144/6541)
 
 ### 应用实践
-* [使用AICOS-BCS如何纳管已有k8s集群](https://bk.tencent.com/docs/document/6.0/144/8057#导入已有集群)
-* [通过AICOS-BCS模板集部署应用](https://bk.tencent.com/docs/document/6.0/144/8054)
-* [通过AICOS-BCS使用helm部署应用](https://bk.tencent.com/docs/document/6.0/144/6542)
+* [使用SPACE-AICOS-BCS如何纳管已有k8s集群](https://bk.tencent.com/docs/document/6.0/144/8057#导入已有集群)
+* [通过SPACE-AICOS-BCS模板集部署应用](https://bk.tencent.com/docs/document/6.0/144/8054)
+* [通过SPACE-AICOS-BCS使用helm部署应用](https://bk.tencent.com/docs/document/6.0/144/6542)
 * [通过GameStatefulset部署应用](./docs/features/bcs-gamestatefulset-operator/README.md)
-* [通过AICOS-BCS完成应用的交互式灰度更新](./docs/features/bcs-gamedeployment-operator/features/canary/auto-canary-update.md)
-* [通过AICOS-BCS完成业务的滚动升级](https://bk.tencent.com/docs/document/6.0/144/6517)
-* [通过AICOS-BCS完成业务的蓝绿发布](https://bk.tencent.com/docs/document/6.0/144/6518)
-* [如何在AICOS-BCS上插件容器监控信息](https://bk.tencent.com/docs/document/6.0/144/6515)
+* [通过SPACE-AICOS-BCS完成应用的交互式灰度更新](./docs/features/bcs-gamedeployment-operator/features/canary/auto-canary-update.md)
+* [通过SPACE-AICOS-BCS完成业务的滚动升级](https://bk.tencent.com/docs/document/6.0/144/6517)
+* [通过SPACE-AICOS-BCS完成业务的蓝绿发布](https://bk.tencent.com/docs/document/6.0/144/6518)
+* [如何在SPACE-AICOS-BCS上插件容器监控信息](https://bk.tencent.com/docs/document/6.0/144/6515)
 
 ### 快速开始
-* [下载与编译](docs/install/source_compile.md)
-* [安装部署](docs/install/deploy-guide.md)
-* [API使用说明](./docs/apidoc/api.md)
+* [下载与编译](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/install/source_compile.md)
+* [安装部署](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/install/deploy-guide.md)
+* [API使用说明](https://github.com/stateioc/aicos-hcm/tree/space-aicos/docs/apidoc/api.md)
 
 ## AICOS社区
 中国信通院牵头搭建SPACE AICOS开源社区,旨在汇聚行业各方力量,发挥协同优势与成员单位创新能力，通过关键技术攻关、行业标准制定、生态体系建设等工作，推动AI云操作系统技术创新与产业升级，助力各行业在人工智能驱动下实现数字化转型与高质量发展。
@@ -63,4 +63,4 @@ SPACE AICOS联合中国信通院从AI云操作系统总体架构、架构各层�
 ### 贡献指南
 欢迎所有开发者参与SPACE AICOS开源社区建设，提交功能特性、修复问题、完善文档。
 
-详细贡献规范请查看 docs/CONTRIBUTING.md
+详细贡献规范请查看[Contribution](./CONTRIBUTING.md)
